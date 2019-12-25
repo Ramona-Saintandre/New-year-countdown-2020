@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-/* body {
+body {
 	background-color: #6b7532;
 	color: #fff;
 	display: flex;
@@ -14,16 +14,19 @@
 	overflow: hidden;
 	margin: 0;
 	text-align: center;
-} */
+}
 
-/* .fa-snowflake {
+.fa-snowflake {
+    animation: fall 10s linear forwards;
 	color: #fff;
 	position: absolute;
 	top: -20px;
-	animation: fall linear forwards; */
-/* @keyframes fall{
+    
+    
+@keyframes fall {
     to{
-        transform: translateY(105vh);
+        transform: translateY(10vh);
 
     }
-} */
+}
+}
