@@ -1,10 +1,10 @@
-*{
+/* *{
     box-sizing: border-box;
-}
+} */
 
 body {
-	background-color: #6b7532;
-	color: #fff;
+	background-color: #2f6ccf;
+	/* color: rgb(150, 31, 31);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -13,19 +13,19 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	margin: 0;
-	text-align: center;
+	text-align: center; */
 }
 
 .fa-snowflake {
-    animation: fall 15s linear forwards;
-	color: #fff;
+    animation:falls 10s linear forwards;
+	color: rgb(143, 14, 14);
 	position: absolute;
 	top: 10px;
     
     
-@keyframes fall {
-    to{
-        transform: translateY(10vh);
+@keyframes falls {
+    to {
+        transform: translateY(105vh);
 
     }
 }
